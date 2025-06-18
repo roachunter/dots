@@ -12,6 +12,8 @@ packages=(
 	nautilus
 	slurp
 	brightnessctl
+	bluez
+	bluez-utils
 	neovim
 	zsh
 	zsh-syntax-highlighting
