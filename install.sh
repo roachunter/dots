@@ -26,6 +26,8 @@ packages=(
 	rofimoji
 	swaync
 	gnome-tweaks
+	lsd
+	zoxide
 )
 
 yay_packages=(
@@ -37,11 +39,11 @@ yay_packages=(
 INSTLOG="install.log"
 
 function install_package() {
-	echo "$1..."
+	echo -n "$1..."
 	sudo pacman -S --noconfirm "$1" &>> "$INSTLOG"
 
 	if pacman -Q "$1" &>> /dev/null; then
-		echo ""
+		echo "OK"
 	else 
 		echo "Failed to install $1. Check the logs in $INSTLOG."
 		exit 0
@@ -50,11 +52,11 @@ function install_package() {
 
 
 function install_yay_package() {
-	echo "$1..."
+	echo -n "$1..."
 	yay -S --noconfirm "$1" &>> "$INSTLOG"
 
 	if yay -Q "$1" &>> /dev/null; then
-		echo ""
+		echo "OK"
 	else 
 		echo "Failed to install $1. Check the logs in $INSTLOG."
 		exit 0
@@ -109,6 +111,7 @@ function copy_conf() {
 }
 
 function conf_zsh() {
+	echo -n "Configuring zsh..."
 	sudo usermod --shell /usr/bin/zsh "$USER" > /dev/null 2>&1
 	sudo usermod --shell /usr/bin/zsh root > /dev/null 2>&1
 	cp "$1/zsh/.zshrc" "$HOME/"
@@ -116,9 +119,8 @@ function conf_zsh() {
 
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k > /dev/null 2>&1
 
-	sudo mkdir -p zsh-sudo
-	sudo chown "$USER":"$USER" zsh-sudo/
-	cd zsh-sudo || exit 1
+	sudo mkdir -p /usr/share/zsh-sudo
+	sudo chown "$USER":"$USER" /usr/share/zsh-sudo/
 	sudo cp "$1/zsh/sudo.plugin.zsh" /usr/share/zsh-sudo/
 
 	echo "OK"
