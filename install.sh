@@ -9,6 +9,7 @@ packages=(
 	hyprlock
 	hypridle
 	hyprsunset
+	nautilus
 	slurp
 	brightnessctl
 	neovim
