@@ -1,0 +1,7 @@
+.pane-wrapper2 {
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+
+  padding: 2em 4em 1em 4em;
+}

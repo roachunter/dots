@@ -1,0 +1,26 @@
+.pane-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 4em 4em 4em;
+}
+
+.quest-pane {
+  flex-grow: 1;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.quest-pane > section {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 5px;
+}

@@ -1,0 +1,21 @@
+.pane-wrapper2 {
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 2em;
+
+  gap: 0.5em;
+}
+
+.canvas-container {
+  width: 100%;
+  min-height: 0;
+  flex-grow: 1;
+
+  background-color: white;
+}

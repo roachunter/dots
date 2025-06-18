@@ -1,0 +1,19 @@
+.quest-dropdowns-container {
+  overflow-y: auto;
+}
+
+.add-realm-btn {
+  color: var(--yellow-text-color);
+  background: var(--dark-brown);
+  margin: 0.2em;
+  margin-bottom: 0.4em;
+}
+
+.add-realm-dialog-container {
+  background-color: red;
+  padding: 1em;
+}
+
+dialog {
+  padding: 0;
+}

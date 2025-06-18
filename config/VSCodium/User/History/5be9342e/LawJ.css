@@ -1,0 +1,13 @@
+@import url("../node_modules/modern-normalize/modern-normalize.css");
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+  background-color: #070707;
+}
+
+.body {
+    
+}

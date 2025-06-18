@@ -1,0 +1,133 @@
+2025-06-12 14:17:48.812 [info] Started local extension host with pid 3780.
+2025-06-12 14:17:48.879 [info] ComputeTargetPlatform: linux-x64
+2025-06-12 14:17:53.298 [info] [perf] Render performance baseline is 28ms
+2025-06-12 14:37:50.046 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 14:38:31.774 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 14:38:36.861 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 14:38:38.311 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 14:38:42.310 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:21:59.597 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:22:07.852 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:39:08.412 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:39:15.112 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:39:54.722 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:03.698 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:05.229 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:19.787 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:21.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:24.021 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:25.310 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:27.904 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:31.135 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:32.455 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:33.972 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:35.808 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:37.348 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:40.474 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 15:41:50.278 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-12 17:00:04.325 [error] <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+Additional information: BADCLIENT: Bad error code, 2554 not found in range 742..744 (found: )
+TypeError: Cannot read properties of undefined (reading 'declarations')
+Additional information: BADCLIENT: Bad error code, 2554 not found in range 742..744 (found: )
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:524:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+Additional information: BADCLIENT: Bad error code, 2554 not found in range 742..744 (found: )
+TypeError: Cannot read properties of undefined (reading 'declarations')
+Additional information: BADCLIENT: Bad error code, 2554 not found in range 742..744 (found: )
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:524:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:496464)
+	at y.dispatchResponse (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:490056)
+	at y.dispatchMessage (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488497)
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:487990)
+	at ChildProcess.emit (node:events:524:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-12 17:48:33.591 [error] <semantic> TypeScript Server Error (5.8.3)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+    at cast (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange33 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:163013:23)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162893:21
+    at _ChangeTracker.with (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162892:62)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:524:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21): Error: <semantic> TypeScript Server Error (5.8.3)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+    at cast (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange33 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:163013:23)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162893:21
+    at _ChangeTracker.with (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162892:62)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:524:28)
+    at emit (node:internal/child_process:950:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at n.create (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:496464)
+	at y.dispatchResponse (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:490056)
+	at y.dispatchMessage (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488497)
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:487990)
+	at ChildProcess.emit (node:events:524:28)
+	at emit (node:internal/child_process:950:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:83:21)

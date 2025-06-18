@@ -1,0 +1,10 @@
+@define-color foreground {{colors.on_background.default.hex}};
+/* @define-color background {{colors.background.default.hex}}; */
+@define-color back {{colors.surface.default.hex}};
+@define-color cursor #D9E0EE;
+
+/*-----All Colors--------*/
+<* for name, value in colors *>
+@define-color {{name}} {{value.default.hex}};
+<* endfor *>
+

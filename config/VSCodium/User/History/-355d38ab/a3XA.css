@@ -1,0 +1,8 @@
+.stage-state-box {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.stage-state-box img {
+  object-fit: contain;
+}

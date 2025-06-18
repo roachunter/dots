@@ -1,0 +1,56 @@
+2025-06-09 16:52:21.654 [info] Started local extension host with pid 1447.
+2025-06-09 16:52:21.697 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 16:52:24.266 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.mFjgec/a' failed: No such file or directory (EUNKNOWN) (path: /home/dan/projects/quest)
+2025-06-09 16:52:24.275 [error] [File Watcher (universal)] inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.mFjgec/a' failed: No such file or directory
+2025-06-09 16:52:24.405 [info] [perf] Render performance baseline is 26ms
+2025-06-09 16:55:02.595 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:07.680 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:16.886 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:18.264 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:19.803 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:21.057 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:22.947 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:25.473 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:26.486 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:28.344 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:30.659 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:32.219 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:33.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:34.917 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:40.399 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:41.873 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:42.915 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:44.912 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:53.090 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:54.208 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:55.469 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:55:56.479 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:58:05.864 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:58:06.916 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:58:59.999 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:59:02.021 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:59:06.206 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:59:07.663 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 16:59:09.239 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:21:03.163 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:22:27.345 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:22:29.453 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:03.188 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:10.674 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:13.082 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:14.284 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:22.430 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:23.815 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:29.129 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:35.797 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:37.506 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:39.156 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:52.455 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:27:53.482 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:11.830 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:25.143 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:27.700 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:28.711 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:39.716 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:28:43.105 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-09 17:36:43.947 [error] An unknown error occurred. Please consult the log for more details.

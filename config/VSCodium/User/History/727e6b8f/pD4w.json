@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Rosé Pine",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontWeight": "500",
+    "reactSnippets.settings.importReactOnTop": false,
+    "reactSnippets.settings.prettierEnabled": true,
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineHeight": 1.5,
+    "totalTypeScript.hiddenTips": [
+        "non-null-expression",
+        "tuple-type",
+        "literal-type",
+        "type-alias-declaration",
+        "ts-object-type",
+        "basic-types",
+        "array-type"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

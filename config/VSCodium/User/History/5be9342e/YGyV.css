@@ -1,0 +1,23 @@
+@import url("../node_modules/modern-normalize/modern-normalize.css");
+@import url("./styles/ticket.css");
+
+:root {
+  --yellow-text-color: #9f8968;
+}
+
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+  background-color: #070707;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 1.2rem;
+}

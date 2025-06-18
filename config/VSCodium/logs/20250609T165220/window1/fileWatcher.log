@@ -1,0 +1,2 @@
+2025-06-09 16:52:24.278 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.mFjgec/a' failed: No such file or directory (EUNKNOWN) (path: /home/dan/projects/quest)
+2025-06-09 16:52:24.278 [error] [File Watcher (universal)] inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.mFjgec/a' failed: No such file or directory

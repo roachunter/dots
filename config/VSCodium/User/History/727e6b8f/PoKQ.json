@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "Rosé Pine",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontWeight": "500",
+    "reactSnippets.settings.importReactOnTop": false,
+    "reactSnippets.settings.prettierEnabled": true,
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.lineHeight": 1.5,
+    "totalTypeScript.hiddenTips": [
+        "non-null-expression",
+        "tuple-type",
+        "literal-type",
+        "type-alias-declaration",
+        "ts-object-type",
+        "basic-types",
+        "array-type",
+        "typing-function-parameters",
+        "variable-type-annotation",
+        "union-type",
+        "null-keyword",
+        "any-type",
+        "function-return-type",
+        "passing-generics-to-types"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.autoSave": "afterDelay",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.external.osxExec": "Terminal.app`",
+    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.stickyTabStops": true
+}

@@ -1,0 +1,25 @@
+.quest-description-container {
+  height: 100%;
+  padding: 0;
+  margin: 2em 1em;
+  overflow-y: auto;
+}
+
+.quest-description-container > div {
+  min-height: 100%;
+  background-color: red;
+}
+
+.quest-description-container textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.quest-description {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+
+  color: var(--milk-text-color);
+}

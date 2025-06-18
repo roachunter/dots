@@ -1,0 +1,10 @@
+.quest-stage-container {
+  display: flex;
+  gap: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.quest-stage-container p {
+  margin: 0;
+  padding: 0;
+}

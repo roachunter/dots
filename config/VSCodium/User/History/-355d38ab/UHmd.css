@@ -1,0 +1,9 @@
+.stage-state-container {
+  width: 1.5em;
+  height: 1.5em;
+  padding: auto;
+}
+
+.stage-state-container img {
+  object-fit: cover;
+}

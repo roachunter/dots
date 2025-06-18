@@ -1,0 +1,54 @@
+.quest-pane {
+  height: 100%;
+  padding: 2em;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.quest-pane > section {
+  height: 100%;
+  border: 2px solid #2d221a;
+}
+
+.box {
+  position: relative;
+  border: 10px solid red;
+  margin: 20px;
+  padding: 20px;
+}
+.box:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#2d221a, #2d221a53, #00000000);
+  clip-path: polygon(
+    0 5px,
+    5px 5px,
+    5px 0,
+    calc(100% - 5px) 0,
+    calc(100% - 5px) 5px,
+    100% 5px,
+    100% calc(100% - 5px),
+    calc(100% - 5px) calc(100% - 5px),
+    calc(100% - 5px) 100%,
+    5px 100%,
+    5px calc(100% - 5px),
+    0 calc(100% - 5px),
+    0 5px,
+    2px calc(5px + 2px),
+    2px calc(100% - 5px - 2px),
+    calc(5px + 2px) calc(100% - 5px - 2px),
+    calc(5px + 2px) calc(100% - 2px),
+    calc(100% - 5px - 2px) calc(100% - 2px),
+    calc(100% - 5px - 2px) calc(100% - 5px - 2px),
+    calc(100% - 2px) calc(100% - 5px - 2px),
+    calc(100% - 2px) calc(5px + 2px),
+    calc(100% - 5px - 2px) calc(5px + 2px),
+    calc(100% - 5px - 2px) 2px,
+    calc(5px + 2px) 2px,
+    calc(5px + 2px) calc(5px + 2px),
+    2px calc(5px + 2px)
+  );
+}

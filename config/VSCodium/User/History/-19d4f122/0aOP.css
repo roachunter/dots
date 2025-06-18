@@ -1,0 +1,14 @@
+.quest-pane {
+  flex: 1 1 auto;
+  padding: 2em 4em;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+.quest-pane > section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}

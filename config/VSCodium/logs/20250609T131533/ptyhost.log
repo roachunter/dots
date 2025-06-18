@@ -1,0 +1,11 @@
+2025-06-09 13:15:34.826 [info] Revived process, old id aecdf324f611c8a67086c59dbd5846a1-1 -> new id 1
+2025-06-09 13:15:34.826 [info] Revived process, old id aecdf324f611c8a67086c59dbd5846a1-2 -> new id 2
+2025-06-09 13:15:34.901 [info] Expanding terminal instance, old id aecdf324f611c8a67086c59dbd5846a1-1 -> new id 1
+2025-06-09 13:15:34.901 [info] Expanding terminal instance, old id aecdf324f611c8a67086c59dbd5846a1-2 -> new id 2
+2025-06-09 13:15:35.051 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-06-09 13:15:35.051 [info] Persistent process reconnection "1"
+2025-06-09 13:15:35.051 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-06-09 13:15:35.051 [info] Persistent process reconnection "2"
+2025-06-09 13:15:35.055 [error] Failed to set sticky bit on /tmp/dan-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/dan-codium-zsh'
+2025-06-09 13:15:35.071 [info] Persistent process "1": Replaying 6455 chars and 1 size events
+2025-06-09 13:15:35.082 [info] Persistent process "2": Replaying 10537 chars and 1 size events

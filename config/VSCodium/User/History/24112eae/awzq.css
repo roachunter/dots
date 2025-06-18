@@ -1,0 +1,12 @@
+.quest-dropdown-item {
+  display: flex;
+}
+
+.quest-dropdown-item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.quest-dropdown-item-text h3 {
+  font-size: 1rem;
+}

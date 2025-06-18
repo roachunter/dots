@@ -1,0 +1,7 @@
+2025-06-14 11:04:14.099 [info] ComputeTargetPlatform: linux-x64
+2025-06-14 11:04:18.805 [info] ComputeTargetPlatform: linux-x64
+2025-06-14 11:16:15.922 [info] Getting Manifest... gruntfuggly.todo-tree
+2025-06-14 11:16:16.669 [info] Installing extension: gruntfuggly.todo-tree {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/dan/.vscode-oss/extensions/extensions.json","path":"/home/dan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.101.03933","date":"2025-06-12T21:31:35.492Z"}}
+2025-06-14 11:16:17.229 [info] Extracted extension to file:///home/dan/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal: gruntfuggly.todo-tree
+2025-06-14 11:16:17.233 [info] Renamed to /home/dan/.vscode-oss/extensions/gruntfuggly.todo-tree-0.0.215-universal
+2025-06-14 11:16:17.246 [info] Extension installed successfully: gruntfuggly.todo-tree vscode-userdata:/home/dan/.vscode-oss/extensions/extensions.json

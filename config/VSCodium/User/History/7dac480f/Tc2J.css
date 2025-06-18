@@ -1,0 +1,33 @@
+.quest-dialog {
+  padding: 0;
+  border: none;
+
+  background: black;
+  color: white;
+}
+
+.quest-dialog-form {
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.quest-dialog-form h3 {
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+}
+
+.quest-dialog-buttons {
+  margin-top: 0.5em;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.quest-dialog-buttons button {
+  color: white;
+}

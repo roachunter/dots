@@ -1,0 +1,84 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "7adac2d3cd0dc167d8c180be9a34991754aa2ffe97c8bf0d225733d608f69966",
+    "telemetry.devDeviceId": "60134c8d-6333-484b-9414-fdd695db5c52",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/dan/projects/quest"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/dan/Downloads/hypr.pro": "__default__profile__",
+            "file:///home/dan/projects/quest": "__default__profile__",
+            "file:///home/dan/projects/test": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#191724",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#e0def4",
+            "background": "#191724",
+            "editorBackground": "#191724",
+            "titleBarBackground": "#191724",
+            "activityBarBackground": "#191724",
+            "sideBarBackground": "#191724",
+            "statusBarBackground": "#191724",
+            "statusBarNoFolderBackground": "#191724",
+            "windowBorder": "#1f1d2e"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 242,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/dan/projects/quest",
+            "backupPath": "/home/dan/.config/VSCodium/Backups/7ecd954611bdb50ec6ffe5aa82825f00",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1600,
+                "height": 900
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 242,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "116f38713504fce1b496b64b82066c3b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "aecdf324f611c8a67086c59dbd5846a1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "32dd6c131d45a8c00565eba8b675869f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.stage-state-container {
+  width: 1.4em;
+  height: 1.4em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-state-container img {
+}

@@ -1,0 +1,71 @@
+import { useRef, useState, type ChangeEvent, type MouseEvent } from "react";
+import "./styles/QuestButton.css";
+
+const NewStageButton = () => {
+  const dialogRef = useRef<HTMLDialogElement>(null);
+
+  const [stageDescription, setStageDescription] = useState("");
+  const [descriptionError, setDescriptionError] = useState("");
+
+  const handleButtonClick = () => {
+    dialogRef.current?.showModal();
+  };
+
+  const handleClickOutsideDialog = (event: MouseEvent<HTMLDialogElement>) => {
+    if (event.target == dialogRef.current) {
+      dialogRef.current?.close();
+    }
+  };
+
+  const handleStageDescChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setStageDescription(event.target.value);
+
+    setDescriptionError("");
+  };
+
+  return (
+    <>
+      <button
+        className="quest-btn ticket-container-dark"
+        onClick={handleButtonClick}
+      >
+        New Stage
+      </button>
+      <dialog
+        className="quest-dialog"
+        ref={dialogRef}
+        onClick={handleClickOutsideDialog}
+      >
+        <form
+          onSubmit={handleSubmit}
+          className="quest-dialog-form ticket-container-dark"
+        >
+          <h3>New Stage</h3>
+
+          <label htmlFor="new-stage-description">Description</label>
+          <input
+            type="text"
+            value={stageDescription}
+            onChange={handleTitleChange}
+            name="new-stage-description"
+          />
+          {titleError}
+
+          <div className="quest-dialog-buttons">
+            <button
+              type="button"
+              onClick={handleCancel}
+              className="ticket-container-dark"
+            >
+              Cancel
+            </button>
+            <button type="submit" className="ticket-container-dark">
+              Start
+            </button>
+          </div>
+        </form>
+      </dialog>
+    </>
+  );
+};
+export default NewStageButton;

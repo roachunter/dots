@@ -1,0 +1,42 @@
+2025-06-09 13:49:17.787 [info] Extension host with pid 11221 started
+2025-06-09 13:49:17.788 [info] Skipping acquiring lock for /home/dan/.config/VSCodium/User/workspaceStorage/32dd6c131d45a8c00565eba8b675869f.
+2025-06-09 13:49:17.818 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-09 13:49:17.821 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-06-09 13:49:17.843 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 13:49:17.849 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 13:49:17.901 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-09 13:49:17.948 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-09 13:49:17.988 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-09 13:49:18.021 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-09 13:49:18.092 [info] Eager extensions activated
+2025-06-09 13:49:18.109 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.111 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.124 [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.155 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.178 [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.468 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.469 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.519 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:18.603 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-06-09 13:49:23.129 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-09 13:49:23.673 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-06-09 13:49:30.753 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:30.753 [error] undefined
+2025-06-09 13:49:31.503 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:31.503 [error] undefined
+2025-06-09 13:49:31.957 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:31.957 [error] undefined
+2025-06-09 13:49:32.062 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.062 [error] undefined
+2025-06-09 13:49:32.191 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.191 [error] undefined
+2025-06-09 13:49:32.271 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.271 [error] undefined
+2025-06-09 13:49:32.487 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.487 [error] undefined
+2025-06-09 13:49:32.591 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.591 [error] undefined
+2025-06-09 13:49:32.704 [error] [ecmel.vscode-html-css] provider FAILED
+2025-06-09 13:49:32.704 [error] undefined
+2025-06-09 14:02:17.838 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-09 14:02:17.851 [info] Extension host with pid 11221 exiting with code 0

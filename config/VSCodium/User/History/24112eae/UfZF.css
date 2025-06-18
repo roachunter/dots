@@ -1,0 +1,8 @@
+.quest-dropdown-item {
+  display: flex;
+}
+
+.quest-dropdown-item-text {
+  display: flex;
+  flex-direction: column;
+}

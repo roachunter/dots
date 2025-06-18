@@ -1,0 +1,6 @@
+.quest-description {
+  padding: 0;
+  margin: 2em 1em;
+
+  color: var(--milk-text-color);
+}

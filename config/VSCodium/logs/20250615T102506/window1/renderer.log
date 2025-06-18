@@ -1,0 +1,793 @@
+2025-06-15 10:25:06.636 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-15 10:25:06.644 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-15 10:25:06.645 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-06-15 10:25:06.953 [info] Started local extension host with pid 1193.
+2025-06-15 10:25:07.255 [info] ComputeTargetPlatform: linux-x64
+2025-06-15 10:25:09.142 [error] [File Watcher ('parcel')] Unexpected error: inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.pomdeo/b' failed: No such file or directory (EUNKNOWN) (path: /home/dan/projects/quest)
+2025-06-15 10:25:09.142 [error] [File Watcher (universal)] inotify_add_watch on '/home/dan/projects/quest/.git/.gitstatus.pomdeo/b' failed: No such file or directory
+2025-06-15 10:25:12.965 [error] Error while getting the latest version for the extension usernamehw.errorlens from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.103 [error] Error while getting the latest version for the extension gruntfuggly.todo-tree from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.320 [error] Error while getting the latest version for the extension mattpocock.ts-error-translator from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.465 [error] Error while getting the latest version for the extension esbenp.prettier-vscode from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.616 [error] Error while getting the latest version for the extension streetsidesoftware.code-spell-checker from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.770 [error] Error while getting the latest version for the extension dbaeumer.vscode-eslint from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:13.918 [error] Error while getting the latest version for the extension dsznajder.es7-react-js-snippets from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:14.066 [error] Error while getting the latest version for the extension bradlc.vscode-tailwindcss from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:14.213 [error] Error while getting the latest version for the extension yoavbls.pretty-ts-errors from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:14.352 [error] Error while getting the latest version for the extension ecmel.vscode-html-css from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:14.491 [error] Error while getting the latest version for the extension xabikos.javascriptsnippets from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:14.660 [error] Error while getting the latest version for the extension mvllow.rose-pine from https://open-vsx.org/vscode/gallery/vscode/{publisher}/{name}/latest. Trying the fallback https://open-vsx.org/vscode/gallery/{publisher}/{name}/latest Unexpected token '<', "<!DOCTYPE "... is not valid JSON:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Open VSX Registry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+
+    <!-- Eclipse Cookie Consent -->
+    <link rel="stylesheet" type="text/css"
+        href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+    <script
+        src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js">
+    </script>
+    <style>
+        a.cc-btn.cc-allow {
+            background-color: #c160ef;
+        }
+        a.cc-btn.cc-allow:hover, a.cc-btn.cc-allow:focus {
+            background-color: #444;
+        }
+        .cc-revoke {
+            display: none !important;
+        }
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #121212;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="main"></div>
+    <script src='/bundle.js' ></script>
+</body>
+
+</html>
+
+2025-06-15 10:25:35.997 [info] [perf] Render performance baseline is 20ms
+2025-06-15 10:32:46.998 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 10:36:34.237 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 11:04:58.879 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 11:11:57.550 [error] <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+TypeError: Cannot read properties of undefined (reading 'declarations')
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21): Error: <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+TypeError: Cannot read properties of undefined (reading 'declarations')
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:497210)
+	at y.dispatchResponse (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:490289)
+	at y.dispatchMessage (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488730)
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488223)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-06-15 11:12:22.987 [error] <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+TypeError: Cannot read properties of undefined (reading 'declarations')
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21): Error: <semantic> TypeScript Server Error (5.8.3)
+Cannot read properties of undefined (reading 'declarations')
+TypeError: Cannot read properties of undefined (reading 'declarations')
+    at getInfo11 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160501:63)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:160450:18)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:497210)
+	at y.dispatchResponse (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:490289)
+	at y.dispatchMessage (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488730)
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488223)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-06-15 11:13:30.940 [error] Error: file:///home/dan/projects/quest/src/presentation/panes/RealmsPane.tsx has changed in the meantime
+    at mct._validateBeforePrepare (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2512:16626)
+    at mct.apply (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2512:17568)
+    at Sct._performTextEdits (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2512:21444)
+    at Sct.perform (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2512:20639)
+    at bct.apply (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2512:23134)
+    at UQt.$tryApplyWorkspaceEdit (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1264:4344)
+    at nxt._doInvokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3345:52768)
+    at nxt._invokeHandler (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3345:52510)
+    at nxt._receiveRequest (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3345:51275)
+    at nxt._receiveOneMessage (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:3345:50273)
+2025-06-15 11:13:30.940 [warning] IGNORING workspace edit: Error: file:///home/dan/projects/quest/src/presentation/panes/RealmsPane.tsx has changed in the meantime
+2025-06-15 11:38:26.518 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 11:45:27.357 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 12:36:16.940 [error] An unknown error occurred. Please consult the log for more details.
+2025-06-15 14:31:07.682 [error] <semantic> TypeScript Server Error (5.8.3)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Additional information: BADCLIENT: Bad error code, 7006 not found in range 3965..3966 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Additional information: BADCLIENT: Bad error code, 7006 not found in range 3965..3966 (found: 2304)
+    at cast (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange33 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:163013:23)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162893:21
+    at _ChangeTracker.with (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162892:62)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21): Error: <semantic> TypeScript Server Error (5.8.3)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Additional information: BADCLIENT: Bad error code, 7006 not found in range 3965..3966 (found: 2304)
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isParameter'.
+Additional information: BADCLIENT: Bad error code, 7006 not found in range 3965..3966 (found: 2304)
+    at cast (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:3350:16)
+    at doChange33 (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:163013:23)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162893:21
+    at _ChangeTracker.with (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:178070:5)
+    at Object.getCodeActions (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:162892:62)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:46
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:154260:10)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152524:33
+    at flatMap (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:2536:17)
+    at Object.getCodeFixesAtPosition (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:152522:12)
+    at IpcIOSession.getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195357:50)
+    at getCodeFixes (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:193369:43)
+    at /opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195676:15
+    at IpcIOSession.executeWithRequestId (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195665:14)
+    at IpcIOSession.executeCommand (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195674:29)
+    at IpcIOSession.onMessage (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/typescript.js:195722:68)
+    at process.<anonymous> (/opt/vscodium-bin/resources/app/extensions/node_modules/typescript/lib/_tsserver.js:519:14)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+	at n.create (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:497210)
+	at y.dispatchResponse (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:490289)
+	at y.dispatchMessage (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488730)
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/typescript-language-features/dist/extension.js:2:488223)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-06-15 14:49:19.189 [error] An unknown error occurred. Please consult the log for more details.

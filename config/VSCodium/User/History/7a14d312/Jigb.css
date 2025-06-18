@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  gap: 1.5em;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+img {
+  width: 20px;
+}
+
+.flip-horizontally {
+  transform: scale(-1, 1);
+}

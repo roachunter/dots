@@ -1,0 +1,8 @@
+.stage-state-container {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.stage-state-container img {
+  background-color: red;
+}

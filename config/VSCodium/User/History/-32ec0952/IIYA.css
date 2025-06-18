@@ -1,0 +1,17 @@
+.pane-wrapper2 {
+  width: 100%;
+  flex-grow: 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5em;
+
+  padding: 2em 0 1em 0;
+}
+
+canvas {
+  border: 1px solid white;
+}

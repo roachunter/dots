@@ -1,0 +1,24 @@
+.new-quest-btn {
+  color: white;
+  width: fit-content;
+}
+
+.new-quest-dialog {
+  padding: 0;
+}
+
+.new-quest-dialog-form {
+  background: black;
+  color: white;
+
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.new-quest-dialog-form h3 {
+  margin: 0;
+  padding: 0;
+}

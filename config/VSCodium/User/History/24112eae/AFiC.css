@@ -1,0 +1,31 @@
+.quest-dropdown-item {
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    var(--yellow-enough-transparent),
+    #00000000,
+    #00000000
+  );
+}
+
+.quest-dropdown-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.quest-dropdown-item-text h3 {
+  color: var(--milk-text-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.quest-dropdown-item-text p {
+  color: var(--grey-text-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}

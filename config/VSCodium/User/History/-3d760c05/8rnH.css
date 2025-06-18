@@ -1,0 +1,27 @@
+summary {
+  margin: 5px;
+  background: #0e0d0c;
+  user-select: none;
+  color: var(--ticket-border-main-color);
+}
+
+details > summary {
+  list-style: none;
+  position: relative;
+}
+
+details > summary::-webkit-details-marker,
+details > summary::marker {
+  display: none;
+  content: none;
+}
+
+details > summary::after {
+  position: absolute;
+  color: var(--ticket-border-main-color);
+  right: calc(5px + 1em);
+  content: "◄";
+}
+details[open] > summary:after {
+  content: "▲";
+}

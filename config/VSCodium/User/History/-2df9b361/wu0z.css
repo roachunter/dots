@@ -1,0 +1,14 @@
+.quest-description-container {
+  min-height: 0;
+  padding: 0;
+  margin: 2em 1em;
+  overflow-y: auto;
+}
+
+.quest-description {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+
+  color: var(--milk-text-color);
+}

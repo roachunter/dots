@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Rosé Pine",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'monospace', monospace",
+    "editor.fontWeight": "500",
+    "reactSnippets.settings.importReactOnTop": false,
+    "reactSnippets.settings.prettierEnabled": true,
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false
+}

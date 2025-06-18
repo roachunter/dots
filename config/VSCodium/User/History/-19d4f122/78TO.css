@@ -1,0 +1,13 @@
+.quest-pane {
+  height: 10em;
+  padding: 2em 4em;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  /* overflow: hidden; */
+}
+
+.quest-pane > section {
+  height: 10em;
+}

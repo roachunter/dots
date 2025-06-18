@@ -1,0 +1,62 @@
+.quest-dialog {
+  padding: 0;
+}
+
+.quest-dialog button {
+  color: white;
+  width: fit-content;
+}
+
+.quest-dialog-form {
+  background: black;
+  color: white;
+
+  padding: 1em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.quest-dialog-form h3 {
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+}
+
+.quest-dialog-form-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.quest-dialog-form-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.quest-dialog-form-container fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.stage-description-input-container {
+  display: flex;
+  gap: 0.5em;
+}
+
+.stage-description-input-container input {
+  flex-grow: 1;
+  width: min-content;
+}
+
+.quest-dialog-buttons {
+  margin-top: 0.5em;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
