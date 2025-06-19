@@ -38,6 +38,8 @@ yay_packages=(
 	swaync-widgets-git
 	matugen-bin
 	vscodium-bin
+	spotify
+	spicetify-cli
 )
 
 INSTLOG="install.log"
@@ -145,6 +147,13 @@ function enable_services() {
 	sudo systemctl enable bluetooth.service
 }
 
+function conf_spicetify() {
+	sudo chmod a+wr /opt/spotify
+	sudo chmod a+wr /opt/spotify/Apps -R
+
+	spicetify config prefs_path ~/.config/spotify/prefs
+}
+
 function start_install() {
 	local current_dir
 	current_dir="$(pwd)"
@@ -155,6 +164,7 @@ function start_install() {
 	conf_zsh "$current_dir"
 	conf_vscodium "$current_dir"
 	create_wallpaper_links "$current_dir"
+	conf_spicetify
 
 	echo "Installation completed. You can restart now."
 }
