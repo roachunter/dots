@@ -130,6 +130,12 @@ function conf_zsh() {
 	echo "OK"
 }
 
+function conf_vscodium() {
+	echo -n "Creating link to vscodium extensions..."
+	ln -s "$1/codium" "$HOME/.vscode-oss"
+	echo "OK"
+}
+
 function create_wallpaper_links() {
 	mkdir -p "$HOME/Pictures"
 	ln -s "$1/wallpapers" "$HOME/Pictures"
@@ -147,6 +153,7 @@ function start_install() {
 	setup "$current_dir"
 	create_config_links "$current_dir"
 	conf_zsh "$current_dir"
+	conf_vscodium "$current_dir"
 	create_wallpaper_links "$current_dir"
 
 	echo "Installation completed. You can restart now."

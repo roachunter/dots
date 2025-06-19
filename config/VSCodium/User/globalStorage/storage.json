@@ -1,15 +1,15 @@
 {
     "telemetry.sqmId": "",
     "telemetry.machineId": "7adac2d3cd0dc167d8c180be9a34991754aa2ffe97c8bf0d225733d608f69966",
-    "telemetry.devDeviceId": "60134c8d-6333-484b-9414-fdd695db5c52",
+    "telemetry.devDeviceId": "572742e3-ab17-4c64-9b28-08e00d994af8",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
+        "folders": [],
+        "emptyWindows": [
             {
-                "folderUri": "file:///home/dan/projects/quest"
+                "backupFolder": "1750323457440"
             }
-        ],
-        "emptyWindows": []
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -18,7 +18,9 @@
             "file:///home/dan/projects/quest": "__default__profile__",
             "file:///home/dan/projects/test": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1750323457440": "__default__profile__"
+        }
     },
     "theme": "vs-dark",
     "themeBackground": "#191724",
@@ -49,8 +51,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/dan/projects/quest",
-            "backupPath": "/home/dan/.config/VSCodium/Backups/7ecd954611bdb50ec6ffe5aa82825f00",
+            "backupPath": "/home/dan/.config/VSCodium/Backups/1750323457440",
             "uiState": {
                 "mode": 0,
                 "x": 0,

@@ -1,0 +1,4 @@
+2025-06-19 11:57:36.828 [error] Invalid path provided: /home/dan/projects/quest, ENOENT: no such file or directory, stat '/home/dan/projects/quest'
+2025-06-19 11:57:36.828 [info] update#setState disabled
+2025-06-19 11:57:36.828 [info] update#ctor - updates are disabled as there is no update URL
+2025-06-19 12:06:00.376 [info] Extension host with pid 2971 exited with code: 0, signal: unknown.
