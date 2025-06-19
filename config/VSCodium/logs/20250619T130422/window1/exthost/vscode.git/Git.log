@@ -1,0 +1,42 @@
+2025-06-19 13:04:31.548 [info] [main] Log level: Info
+2025-06-19 13:04:31.548 [info] [main] Validating found git in: "git"
+2025-06-19 13:04:31.548 [info] [main] Using git "2.50.0" from "git"
+2025-06-19 13:04:31.548 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-19 13:04:31.548 [info] > git rev-parse --show-toplevel [19ms]
+2025-06-19 13:04:31.548 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-19 13:04:31.548 [info] [Model][openRepository] Opened repository (path): /home/dan/Documents/projects/quest
+2025-06-19 13:04:31.548 [info] [Model][openRepository] Opened repository (real path): /home/dan/Documents/projects/quest
+2025-06-19 13:04:31.549 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-19 13:04:31.549 [info] > git config --get commit.template [9ms]
+2025-06-19 13:04:31.563 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-19 13:04:31.563 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-19 13:04:31.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-19 13:04:31.578 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/dan/Documents/projects/quest/.git/refs/remotes/origin/main'
+2025-06-19 13:04:31.579 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-19 13:04:31.593 [info] > git status -z -uall [8ms]
+2025-06-19 13:04:31.595 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-19 13:04:31.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-06-19 13:04:31.625 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-06-19 13:04:31.625 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-19 13:04:31.632 [info] > git config --get commit.template [19ms]
+2025-06-19 13:04:31.657 [info] > git reflog main --grep-reflog=branch: Created from *. [25ms]
+2025-06-19 13:04:31.664 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-06-19 13:04:31.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-06-19 13:04:31.675 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/dan/Documents/projects/quest/.git/refs/remotes/origin/main'
+2025-06-19 13:04:31.676 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-19 13:04:31.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2025-06-19 13:04:31.694 [info] > git status -z -uall [12ms]
+2025-06-19 13:04:31.694 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-06-19 13:04:31.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-06-19 13:04:31.705 [info] > git config --add --local branch.main.vscode-merge-base origin/main [12ms]
+2025-06-19 13:04:31.718 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2025-06-19 13:04:31.732 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-06-19 13:04:31.740 [info] > git config --get commit.template [22ms]
+2025-06-19 13:04:31.748 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2025-06-19 13:04:31.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-06-19 13:04:31.763 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/dan/Documents/projects/quest/.git/refs/remotes/origin/main'
+2025-06-19 13:04:31.763 [info] > git diff --name-status -z --diff-filter=ADMR 36f212a9031bca0b2433185739ea635533011070...refs/remotes/origin/main [8ms]
+2025-06-19 13:04:31.764 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-19 13:04:31.778 [info] > git status -z -uall [8ms]
+2025-06-19 13:04:31.785 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-19 13:04:32.060 [info] > git check-ignore -v -z --stdin [2ms]

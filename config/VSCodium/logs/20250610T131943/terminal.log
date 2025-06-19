@@ -1,5 +1,0 @@
-2025-06-10 13:19:46.043 [info] Latency measurements for local backend
-window<->ptyhost (message port): 46.10ms
-window<->ptyhostservice<->ptyhost: 19.70ms
-ptyhostservice<->ptyhost: 0.52ms []
-2025-06-10 13:21:01.980 [warning] Webgl could not be loaded. Falling back to the DOM renderer [{}]

@@ -1,6 +1,0 @@
-2025-06-09 13:49:17.343 [info] Started local extension host with pid 11221.
-2025-06-09 13:49:17.366 [info] ComputeTargetPlatform: linux-x64
-2025-06-09 13:49:17.550 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
-2025-06-09 13:49:20.120 [info] [perf] Render performance baseline is 135ms
-2025-06-09 13:49:30.753 [error] An unknown error occurred. Please consult the log for more details.
-2025-06-09 13:49:31.958 [error] An unknown error occurred. Please consult the log for more details.

@@ -4,23 +4,22 @@
     "telemetry.devDeviceId": "572742e3-ab17-4c64-9b28-08e00d994af8",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "folders": [
             {
-                "backupFolder": "1750323457440"
+                "folderUri": "file:///home/dan/Documents/projects/quest"
             }
-        ]
+        ],
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
             "file:///home/dan/Downloads/hypr.pro": "__default__profile__",
             "file:///home/dan/projects/quest": "__default__profile__",
-            "file:///home/dan/projects/test": "__default__profile__"
+            "file:///home/dan/projects/test": "__default__profile__",
+            "file:///home/dan/Documents/projects/quest": "__default__profile__"
         },
-        "emptyWindows": {
-            "1750323457440": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#191724",
@@ -51,7 +50,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/dan/.config/VSCodium/Backups/1750323457440",
+            "folder": "file:///home/dan/Documents/projects/quest",
+            "backupPath": "/home/dan/.config/VSCodium/Backups/b0fffb5d8a2761935b79fe23ddd2369b",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -76,6 +76,10 @@
                     "auxiliaryBarVisible": false
                 },
                 "32dd6c131d45a8c00565eba8b675869f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ca5de7a55b22d82ade55fa51cf4c0704": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": false
                 }
