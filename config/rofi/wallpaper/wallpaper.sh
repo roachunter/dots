@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPERS_DIR="$HOME/wallpapers/"
+WALLPAPERS_DIR="$HOME/Pictures/wallpapers/"
 
 # Función para definir el estilo del menú de selección
 build_theme() {

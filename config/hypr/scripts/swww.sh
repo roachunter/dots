@@ -5,7 +5,7 @@
 # como fondo de pantalla usando swww con una animación personalizada.
 # ------------------------------------------------------------------------------
 
-WALLPAPER_DIR="$HOME/wallpapers"
+WALLPAPER_DIR="$HOME/Pictures/wallpapers/"
 
 # Verifica si el directorio existe
 if [ ! -d "$WALLPAPER_DIR" ]; then
