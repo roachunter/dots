@@ -152,6 +152,18 @@ function conf_spicetify() {
 	sudo chmod a+wr /opt/spotify/Apps -R
 
 	spicetify config prefs_path ~/.config/spotify/prefs
+
+	mkdir "$1/spicetify"
+	cd "$1/spicetify"
+	wget https://github.com/spicetify/marketplace/releases/latest/download/marketplace.zip
+	unzip marketplace.zip
+	mv marketplace-dist marketplace
+	cp -r marketplace "$HOME/.config/spicetify/CustomApps/"
+	cd "$1"
+	rm -rdf spicetify
+
+	spicetify config custom_apps marketplace
+	spicetify apply
 }
 
 function start_install() {
@@ -164,7 +176,7 @@ function start_install() {
 	conf_zsh "$current_dir"
 	conf_vscodium "$current_dir"
 	create_wallpaper_links "$current_dir"
-	conf_spicetify
+	conf_spicetify "$current_dir"
 
 	echo "Installation completed. You can restart now."
 }
