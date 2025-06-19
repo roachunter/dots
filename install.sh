@@ -31,6 +31,7 @@ packages=(
 	gnome-tweaks
 	lsd
 	zoxide
+	npm
 )
 
 yay_packages=(
@@ -106,18 +107,18 @@ function setup() {
 	done
 }
 
-function copy_conf() {
+function create_config_links() {
 	echo ""
-	echo "Copying configuration..."
+	echo "Creating links to configs..."
 
-	cp -r "$1/config/"* "$HOME/.config/"
+	ln -s "$1/config/"* "$HOME/.config/"
 }
 
 function conf_zsh() {
 	echo -n "Configuring zsh..."
 	sudo usermod --shell /usr/bin/zsh "$USER" > /dev/null 2>&1
 	sudo usermod --shell /usr/bin/zsh root > /dev/null 2>&1
-	cp "$1/zsh/.zshrc" "$HOME/"
+	ln -s "$1/zsh/.zshrc" "$HOME/"
 	sudo ln -s -f "$HOME/.zshrc" "/root/.zshrc"
 
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k > /dev/null 2>&1
@@ -129,6 +130,14 @@ function conf_zsh() {
 	echo "OK"
 }
 
+function create_wallpaper_links() {
+	mkdir -p "$HOME/Pictures"
+	ln -s "$1/wallpapers" "$HOME/Pictures"
+}
+
+function enable_services() {
+	sudo systemctl enable bluetooth.service
+}
 
 function start_install() {
 	local current_dir
@@ -136,10 +145,11 @@ function start_install() {
 	update
 	install_yay
 	setup "$current_dir"
-	copy_conf "$current_dir"
+	create_config_links "$current_dir"
 	conf_zsh "$current_dir"
+	create_wallpaper_links "$current_dir"
 
-	echo "Installation completed."
+	echo "Installation completed. You can restart now."
 }
 
 if [ "$(whoami)" != "root" ]; then
