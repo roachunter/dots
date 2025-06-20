@@ -20,3 +20,21 @@
 2025-06-19 13:04:38.993 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
 2025-06-19 13:04:43.415 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 2025-06-19 13:06:26.349 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2025-06-19 20:30:55.394 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-19 20:30:55.403 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2025-06-19 20:30:55.403 [error] AggregateError: Encountered errors while disposing of store
+	at Ei (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:822)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:18462
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+	at Object.dispose (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at yJ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:14727)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12013
+	at Array.map (<anonymous>)
+	at yJ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12001)
+	at yJ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:12354)
+	at B9.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:126:1082)
+	at ms (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:361:5320)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:361:1775)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:3073)
+2025-06-19 20:30:55.406 [info] Extension host with pid 4015 exiting with code 0

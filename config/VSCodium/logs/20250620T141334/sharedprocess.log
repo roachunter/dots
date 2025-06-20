@@ -1,0 +1,8 @@
+2025-06-20 14:13:36.020 [info] ComputeTargetPlatform: linux-x64
+2025-06-20 14:13:37.951 [info] ComputeTargetPlatform: linux-x64
+2025-06-20 14:13:42.969 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2025-06-20 14:13:43.736 [info] Installing extension: bradlc.vscode-tailwindcss {"productVersion":{"version":"1.101.03933","date":"2025-06-12T21:31:35.492Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/dan/.vscode-oss/extensions/extensions.json","path":"/home/dan/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-06-20 14:13:45.493 [info] Extracted extension to file:///home/dan/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.14.23-universal: bradlc.vscode-tailwindcss
+2025-06-20 14:13:45.498 [info] Renamed to /home/dan/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.14.23-universal
+2025-06-20 14:13:45.522 [info] Marked extension as removed bradlc.vscode-tailwindcss-0.14.22-universal
+2025-06-20 14:13:45.528 [info] Extension installed successfully: bradlc.vscode-tailwindcss vscode-userdata:/home/dan/.vscode-oss/extensions/extensions.json

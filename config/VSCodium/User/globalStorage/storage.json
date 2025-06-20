@@ -9,11 +9,7 @@
                 "folderUri": "file:///home/dan/Documents/projects/quest"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1750329409620"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -23,9 +19,7 @@
             "file:///home/dan/projects/test": "__default__profile__",
             "file:///home/dan/Documents/projects/quest": "__default__profile__"
         },
-        "emptyWindows": {
-            "1750329409620": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "theme": "vs-dark",
     "themeBackground": "#191724",

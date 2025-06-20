@@ -9,6 +9,7 @@ packages=(
 	hyprlock
 	hypridle
 	hyprsunset
+	hyprpolkitagent
 	nautilus
 	slurp
 	brightnessctl
